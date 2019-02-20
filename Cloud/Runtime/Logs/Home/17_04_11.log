@@ -1,0 +1,25 @@
+[ 2017-04-11T14:03:37+08:00 ] ::1 /ScoreBoard/cloud.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0531s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 G:\APPserver\AppServ\www\ScoreBoard\Cloud\Home\Controller\ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 G:\APPserver\AppServ\www\ScoreBoard\Cloud\Home\Controller\ShowController.class.php 第 232 行.
+

@@ -1,0 +1,32 @@
+[ 2017-05-20T21:25:42+08:00 ] 180.153.212.13 /ScoreBoard/app.php/Home/Car/car_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+
+[ 2017-05-20T21:26:04+08:00 ] 180.153.214.199 /ScoreBoard/app.php/Home/Index/cancel_pk/reg_id/6/pk_id/171
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0972s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 171  [ RunTime:0.0002s ]
+
+[ 2017-05-20T21:26:05+08:00 ] 101.226.61.206 /ScoreBoard/app.php/Home/Index/creative_League/reg_id/6/t_name1/\u5065\u5065\u5EB7\u5EB7/t_name2/\u8FDB\u53E3\u91CF/pk_name/\u770B\u770B\u4F60\u7684/time/2017-5-5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined index: place /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 385 行.
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '\\u5065\\u5065\\u5EB7\\u5EB7' AND `t_id2` = '\\u8FDB\\u53E3\\u91CF' AND `pk_name` = '\\u770B\\u770B\\u4F60\\u7684' AND `time` = '2017-5-5' AND `place` = null AND `pk_character` = 1  [ RunTime:0.0261s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'place' cannot be null
+

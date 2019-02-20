@@ -1,0 +1,71 @@
+[ 2017-05-26T16:52:58+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+
+[ 2017-05-26T18:15:21+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1495794292392
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-26T18:15:35+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1495794306730
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-26T18:15:40+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1495794311322
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-26T18:16:24+08:00 ] 101.199.108.51 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1495793424134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.010466s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0026s ]
+
+[ 2017-05-26T18:17:08+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1495794400175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+

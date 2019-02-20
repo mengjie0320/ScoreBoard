@@ -1,0 +1,10 @@
+[ 2017-05-21T15:58:03+08:00 ] 183.232.175.3 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0007s ]
+

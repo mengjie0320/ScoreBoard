@@ -1,0 +1,48 @@
+[ 2017-02-16T10:02:23+08:00 ] ::1 /ScoreBoard/cloud.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [8] Undefined index: CONTENT_TYPE G:\APPserver\AppServ\www\ScoreBoard\Cloud\Home\Controller\ShowController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: res G:\APPserver\AppServ\www\ScoreBoard\Cloud\Home\Controller\ShowController.class.php 第 34 行.
+
+[ 2017-02-16T10:02:39+08:00 ] ::1 /ScoreBoard/cloud.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-02-16T21:05:57+08:00 ] ::1 /ScoreBoard/cloud.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007066s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+

@@ -1,0 +1,9 @@
+[ 2016-11-17T18:20:54+08:00 ] ::1 /ScoreBoard/app.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+NOTIC: [8] Undefined variable: is_check G:\APPserver\AppServ\www\ScoreBoard\App\Home\Controller\IndexController.class.php 第 8 行.
+

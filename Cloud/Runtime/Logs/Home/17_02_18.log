@@ -1,0 +1,22 @@
+[ 2017-02-18T10:54:22+08:00 ] ::1 /ScoreBoard/cloud.php/Home/Show/show_videos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0432s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,7   [ RunTime:0.0003s ]
+
+[ 2017-02-18T10:55:30+08:00 ] ::1 /ScoreBoard/cloud.php/Home/Show/show_videos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0020s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,7   [ RunTime:0.0003s ]
+

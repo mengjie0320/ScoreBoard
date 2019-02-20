@@ -1,0 +1,6 @@
+[ 2017-03-24T20:52:18+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Index/change_image?&callback=flightHandler&reg_id=10&image=blob%3Ahttp%3A%2F%2F127.0.0.1%3A8020%2F4663d4a7-62ad-490e-a6fe-26b0e559eff2&_=1490359873029
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+ERR: 无法加载模块:Index
+

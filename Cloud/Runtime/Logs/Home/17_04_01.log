@@ -1,0 +1,2561 @@
+[ 2017-04-01T16:27:39+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491035258105
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0055s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0055s ]
+
+[ 2017-04-01T16:27:39+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491035258107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0033s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T16:27:39+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491035258104
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0055s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0053s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0105s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0026s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T16:27:39+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491035258106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0030s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0004s ]
+
+[ 2017-04-01T16:27:39+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491035258108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0009s ]
+
+[ 2017-04-01T16:27:39+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491035258104
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0233s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T16:27:39+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491035258108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0009s ]
+
+[ 2017-04-01T16:27:39+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/add_view?&callback=flightHandler&_=1491035258109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0007s ]
+SQL: UPDATE `number` SET `view_num`='1695' WHERE `id` = 1 [ RunTime:0.0134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-04-01T16:27:40+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491035258107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0090s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T16:27:40+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491035258106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0085s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0085s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0037s ]
+
+[ 2017-04-01T16:27:40+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491035258110
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0006s ]
+
+[ 2017-04-01T16:27:40+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491035258105
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0005s ]
+
+[ 2017-04-01T16:27:40+08:00 ] 113.64.229.213 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491035258110
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0006s ]
+
+[ 2017-04-01T16:43:55+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491036234401
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0069s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0053s ]
+
+[ 2017-04-01T16:43:55+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491036234404
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0017s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0070s ]
+
+[ 2017-04-01T16:43:55+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491036234402
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0018s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0038s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T16:43:55+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491036234403
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0060s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T16:43:55+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/add_view?&callback=flightHandler&_=1491036234405
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0062s ]
+SQL: UPDATE `number` SET `view_num`='1696' WHERE `id` = 1 [ RunTime:0.0169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-04-01T16:43:55+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491036234400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028444s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T16:43:56+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491036234401
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.068410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.068480s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0066s ]
+
+[ 2017-04-01T16:43:56+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491036234402
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0045s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0028s ]
+
+[ 2017-04-01T16:43:56+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491036234404
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010130s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0025s ]
+
+[ 2017-04-01T16:43:56+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491036234403
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T16:43:56+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491036234406
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0019s ]
+
+[ 2017-04-01T16:43:56+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491036234400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0037s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T16:43:56+08:00 ] 14.30.110.79 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491036234406
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0008s ]
+
+[ 2017-04-01T16:46:10+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/add_view?&callback=flightHandler&_=1491036343273
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0006s ]
+SQL: UPDATE `number` SET `view_num`='1697' WHERE `id` = 1 [ RunTime:0.0099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-04-01T16:46:10+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491036343268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T16:46:11+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491036343274
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.051096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051168s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0008s ]
+
+[ 2017-04-01T16:46:11+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491036343270
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0010s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0040s ]
+
+[ 2017-04-01T16:46:11+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491036343269
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0004s ]
+
+[ 2017-04-01T16:46:12+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491036343271
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0007s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T16:46:12+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491036343272
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0009s ]
+
+[ 2017-04-01T16:46:12+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491036343270
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0009s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0005s ]
+
+[ 2017-04-01T16:46:12+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491036343274
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0037s ]
+
+[ 2017-04-01T16:46:12+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491036343271
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0023s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T16:46:12+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491036343269
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0039s ]
+
+[ 2017-04-01T16:46:12+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491036343272
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0010s ]
+
+[ 2017-04-01T16:46:12+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491036343268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T16:46:37+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/show_all_pk?&_=1491036369524
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `section` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `section` WHERE `pk_id` = 15  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 812  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 813  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+
+[ 2017-04-01T16:46:40+08:00 ] 113.64.229.148 /ScoreBoard/cloud.php/Home/Show/show_all_pk?&_=1491036369524
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `section` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `section` WHERE `pk_id` = 15  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 812  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 813  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 76 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 77 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 83 行.
+
+[ 2017-04-01T22:29:14+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491056953964
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T22:29:14+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491056953965
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:29:14+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491056953966
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:29:14+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491056953967
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0001s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T22:29:14+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491056953968
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:29:15+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/add_view?&callback=flightHandler&_=1491056953969
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: UPDATE `number` SET `view_num`='1698' WHERE `id` = 1 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-04-01T22:29:18+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491056953970
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-04-01T22:29:24+08:00 ] 180.153.214.152 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491056953966
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:30:24+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Login/login?&callback=flightHandler&phone_name=13709641376&login_pwd=123456&_=1491057005118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13709641376'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13709641376'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 10  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 10  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-04-01T22:30:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491057024877
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T22:30:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491057024879
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:30:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491057024880
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0001s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T22:30:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491057024881
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0004s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:30:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491057024878
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:30:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/add_view?&callback=flightHandler&_=1491057024882
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: UPDATE `number` SET `view_num`='1699' WHERE `id` = 1 [ RunTime:0.0194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-04-01T22:30:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491057024883
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-04-01T22:30:57+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491057056836
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:30:57+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491057056837
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:30:57+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491057056835
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T22:30:57+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491057056838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0001s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T22:30:57+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/add_view?&callback=flightHandler&_=1491057056840
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: UPDATE `number` SET `view_num`='1700' WHERE `id` = 1 [ RunTime:0.0205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-04-01T22:30:57+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491057056839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:30:57+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491057056841
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-04-01T22:31:07+08:00 ] 180.153.214.182 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491057056841
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:31:08+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491057066011
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0003s ]
+
+[ 2017-04-01T22:31:08+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491057066012
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0011s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0007s ]
+
+[ 2017-04-01T22:31:08+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491057066010
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T22:31:08+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491057066013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0001s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T22:31:08+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491057066014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:31:08+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/add_view?&callback=flightHandler&_=1491057066015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: UPDATE `number` SET `view_num`='1701' WHERE `id` = 1 [ RunTime:0.0147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-04-01T22:31:08+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491057066011
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:31:08+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491057066012
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0004s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0009s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:31:08+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491057066013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0004s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T22:31:08+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491057066010
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T22:31:09+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491057066016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-04-01T22:31:09+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491057066016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:31:09+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491057066014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:31:18+08:00 ] 180.153.214.182 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491057066011
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:31:19+08:00 ] 180.153.81.203 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491057066016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:31:19+08:00 ] 180.153.201.28 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491057066014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:31:20+08:00 ] 175.155.229.231 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491057056838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0001s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T22:31:22+08:00 ] 153.0.48.216 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491057056837
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Login/login?&callback=flightHandler&phone_name=13709641376&login_pwd=123456&_=1491057123909
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13709641376'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13709641376'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 10  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 10  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/add_view?&callback=flightHandler&_=1491057145123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: UPDATE `number` SET `view_num`='1702' WHERE `id` = 1 [ RunTime:0.0131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491057145121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0011s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491057145122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0004s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0024s ]
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491057145120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0009s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0016s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0012s ]
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491057145118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0043s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0078s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491057145119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015228s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491057145124
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1491057145122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1491057145120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0009s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1491057145121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012353s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0009s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 460 行.
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491057145124
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0009s ]
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491057145119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008364s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0004s ]
+
+[ 2017-04-01T22:32:25+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1491057145118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 229 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 232 行.
+
+[ 2017-04-01T22:32:35+08:00 ] 101.226.64.177 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1491057145119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0001s ]
+
+[ 2017-04-01T22:32:35+08:00 ] 101.226.85.67 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1491057145124
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+

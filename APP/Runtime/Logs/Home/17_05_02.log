@@ -1,0 +1,2636 @@
+[ 2017-05-02T12:45:45+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009820s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0007s ]
+
+[ 2017-05-02T12:45:45+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/888666/phone_name/13929702814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009176s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13929702814'  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13929702814'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 6  [ RunTime:0.0006s ]
+
+[ 2017-05-02T12:45:45+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 6  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_level` <= '2' AND `t_id` <> '12' ORDER BY t_level desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0004s ]
+
+[ 2017-05-02T12:45:48+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018725s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0119s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0151s ]
+
+[ 2017-05-02T12:45:48+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019069s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0031s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2017-05-02T12:45:48+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008943s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0118s ]
+
+[ 2017-05-02T12:45:48+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0002s ]
+
+[ 2017-05-02T12:45:48+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0018s ]
+
+[ 2017-05-02T12:45:48+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `reg_league` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `reg_league` WHERE `reg_id` = 6  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 220  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `t_id2` = '12' AND `pk_character` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 2  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: data3 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 500 行.
+NOTIC: [8] Undefined variable: data4 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 501 行.
+NOTIC: [8] Undefined variable: data2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 502 行.
+
+[ 2017-05-02T12:45:48+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0067s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0039s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0023s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-05-02T12:46:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='1' WHERE `pk_id` = 290 [ RunTime:0.0102s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T12:46:29+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='2' WHERE `pk_id` = 290 [ RunTime:0.0115s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T12:46:32+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='1' WHERE `pk_id` = 290 [ RunTime:0.0671s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0003s ]
+
+[ 2017-05-02T12:46:34+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='2' WHERE `pk_id` = 290 [ RunTime:0.0107s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T12:46:48+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='1' WHERE `pk_id` = 290 [ RunTime:0.0115s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T12:46:50+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='1' WHERE `pk_id` = 290 [ RunTime:0.0389s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:34:17+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018383s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0013s ]
+
+[ 2017-05-02T13:34:17+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/123/phone_name/17322434548
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '17322434548'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '17322434548'  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0037s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 54  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 28 行.
+
+[ 2017-05-02T13:34:20+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002476s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 54  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0005s ]
+
+[ 2017-05-02T13:34:21+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.067841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.067916s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0005s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0009s ]
+
+[ 2017-05-02T13:34:21+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0031s ]
+
+[ 2017-05-02T13:34:21+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0025s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0023s ]
+
+[ 2017-05-02T13:34:21+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.056301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.056364s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0025s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0061s ]
+
+[ 2017-05-02T13:34:21+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.053163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0026s ]
+
+[ 2017-05-02T13:34:21+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0045s ]
+
+[ 2017-05-02T13:34:21+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0027s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0081s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0037s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-05-02T13:34:23+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0008s ]
+
+[ 2017-05-02T13:36:49+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0005s ]
+
+[ 2017-05-02T13:36:49+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/888666/phone_name/13929702814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13929702814'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13929702814'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 6  [ RunTime:0.0005s ]
+
+[ 2017-05-02T13:36:50+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 6  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_level` <= '2' AND `t_id` <> '12' ORDER BY t_level desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0006s ]
+
+[ 2017-05-02T13:36:52+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0007s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0006s ]
+
+[ 2017-05-02T13:36:52+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0006s ]
+
+[ 2017-05-02T13:36:52+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0005s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0173s ]
+
+[ 2017-05-02T13:36:52+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.049064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.049130s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0004s ]
+
+[ 2017-05-02T13:36:52+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0020s ]
+
+[ 2017-05-02T13:36:52+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `reg_league` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `reg_league` WHERE `reg_id` = 6  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 220  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `t_id2` = '12' AND `pk_character` = 0  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: data3 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 500 行.
+NOTIC: [8] Undefined variable: data4 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 501 行.
+NOTIC: [8] Undefined variable: data2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 502 行.
+
+[ 2017-05-02T13:36:52+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0093s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-05-02T13:37:04+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0007s ]
+
+[ 2017-05-02T13:37:04+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/888666/phone_name/13929702814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13929702814'  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13929702814'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 6  [ RunTime:0.0006s ]
+
+[ 2017-05-02T13:37:05+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 6  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_level` <= '2' AND `t_id` <> '12' ORDER BY t_level desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0006s ]
+
+[ 2017-05-02T13:37:07+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0039s ]
+
+[ 2017-05-02T13:37:07+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0025s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0077s ]
+
+[ 2017-05-02T13:37:07+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0044s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0082s ]
+
+[ 2017-05-02T13:37:07+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0081s ]
+
+[ 2017-05-02T13:37:07+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0022s ]
+
+[ 2017-05-02T13:37:07+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `reg_league` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `reg_league` WHERE `reg_id` = 6  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 220  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0049s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `t_id2` = '12' AND `pk_character` = 0  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 0  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 2  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: data3 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 500 行.
+NOTIC: [8] Undefined variable: data4 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 501 行.
+NOTIC: [8] Undefined variable: data2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 502 行.
+
+[ 2017-05-02T13:37:07+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.076381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.076442s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0099s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0045s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0125s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-05-02T13:37:48+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='2' WHERE `pk_id` = 290 [ RunTime:0.0157s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:37:51+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='3' WHERE `pk_id` = 290 [ RunTime:0.0122s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:37:54+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='4' WHERE `pk_id` = 290 [ RunTime:0.0093s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:38:11+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='2' WHERE `pk_id` = 290 [ RunTime:0.0100s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:38:14+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='4' WHERE `pk_id` = 290 [ RunTime:0.0140s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:38:18+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='6' WHERE `pk_id` = 290 [ RunTime:0.0121s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:45:56+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/15/team/1/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='19' WHERE `pk_id` = 15 [ RunTime:0.0172s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0003s ]
+
+[ 2017-05-02T13:46:29+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/15/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004543s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='6' WHERE `pk_id` = 15 [ RunTime:0.0122s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:46:47+08:00 ] 220.181.132.220 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/15/team/1/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='21' WHERE `pk_id` = 15 [ RunTime:0.0122s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:46:59+08:00 ] 101.199.112.53 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/15/team/1/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='23' WHERE `pk_id` = 15 [ RunTime:0.0133s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:47:28+08:00 ] 220.181.132.220 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/15/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003360s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='8' WHERE `pk_id` = 15 [ RunTime:0.0121s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:48:26+08:00 ] 182.118.20.157 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/15/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='10' WHERE `pk_id` = 15 [ RunTime:0.0122s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 15  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:51:02+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/888666/phone_name/13929702814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13929702814'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13929702814'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 6  [ RunTime:0.0004s ]
+
+[ 2017-05-02T13:51:02+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0006s ]
+
+[ 2017-05-02T13:51:02+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 6  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_level` <= '2' AND `t_id` <> '12' ORDER BY t_level desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0006s ]
+
+[ 2017-05-02T13:51:05+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0068s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0007s ]
+
+[ 2017-05-02T13:51:05+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0008s ]
+
+[ 2017-05-02T13:51:05+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0007s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0006s ]
+
+[ 2017-05-02T13:51:05+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0007s ]
+
+[ 2017-05-02T13:51:05+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0020s ]
+
+[ 2017-05-02T13:51:05+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-05-02T13:51:05+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `reg_league` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reg_league` WHERE `reg_id` = 6  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 220  [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `t_id2` = '12' AND `pk_character` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 0  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 2  [ RunTime:0.0064s ]
+NOTIC: [8] Undefined variable: data3 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 500 行.
+NOTIC: [8] Undefined variable: data4 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 501 行.
+NOTIC: [8] Undefined variable: data2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 502 行.
+
+[ 2017-05-02T13:51:05+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0007s ]
+
+[ 2017-05-02T13:51:06+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0004s ]
+
+[ 2017-05-02T13:51:06+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `reg_league` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `reg_league` WHERE `reg_id` = 6  [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 220  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `t_id2` = '12' AND `pk_character` = 0  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 0  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 2  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: data3 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 500 行.
+NOTIC: [8] Undefined variable: data4 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 501 行.
+NOTIC: [8] Undefined variable: data2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 502 行.
+
+[ 2017-05-02T13:51:07+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-05-02T13:51:25+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/888666/phone_name/13929702814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13929702814'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13929702814'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 6  [ RunTime:0.0006s ]
+
+[ 2017-05-02T13:51:25+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0006s ]
+
+[ 2017-05-02T13:51:26+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 6  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `team` WHERE `t_level` <= '2' AND `t_id` <> '12' ORDER BY t_level desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0007s ]
+
+[ 2017-05-02T13:51:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0087s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0082s ]
+
+[ 2017-05-02T13:51:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0026s ]
+
+[ 2017-05-02T13:51:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0027s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0030s ]
+
+[ 2017-05-02T13:51:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024255s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0052s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0034s ]
+
+[ 2017-05-02T13:51:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0031s ]
+
+[ 2017-05-02T13:51:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0105s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-05-02T13:51:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033281s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `reg_league` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `reg_league` WHERE `reg_id` = 6  [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 220  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `t_id2` = '12' AND `pk_character` = 0  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 0  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 2  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: data3 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 500 行.
+NOTIC: [8] Undefined variable: data4 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 501 行.
+NOTIC: [8] Undefined variable: data2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 502 行.
+
+[ 2017-05-02T13:51:47+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006735s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='5' WHERE `pk_id` = 290 [ RunTime:0.0468s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:51:52+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='6' WHERE `pk_id` = 290 [ RunTime:0.0126s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:52:00+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='7' WHERE `pk_id` = 290 [ RunTime:0.0156s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:52:01+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='8' WHERE `pk_id` = 290 [ RunTime:0.0144s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:52:04+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='7' WHERE `pk_id` = 290 [ RunTime:0.0107s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:52:08+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='8' WHERE `pk_id` = 290 [ RunTime:0.0125s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:55:27+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0004s ]
+
+[ 2017-05-02T13:55:27+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/888666/phone_name/13929702814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13929702814'  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13929702814'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 6  [ RunTime:0.0006s ]
+
+[ 2017-05-02T13:55:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 6  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_level` <= '2' AND `t_id` <> '12' ORDER BY t_level desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0009s ]
+
+[ 2017-05-02T13:55:30+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0030s ]
+
+[ 2017-05-02T13:55:30+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0097s ]
+
+[ 2017-05-02T13:55:30+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0039s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0065s ]
+
+[ 2017-05-02T13:55:30+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0049s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0066s ]
+
+[ 2017-05-02T13:55:30+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0022s ]
+
+[ 2017-05-02T13:55:30+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `reg_league` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `reg_league` WHERE `reg_id` = 6  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 220  [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `t_id2` = '12' AND `pk_character` = 0  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 0  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 2  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: data3 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 500 行.
+NOTIC: [8] Undefined variable: data4 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 501 行.
+NOTIC: [8] Undefined variable: data2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 502 行.
+
+[ 2017-05-02T13:55:30+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034194s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0084s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-05-02T13:56:08+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='9' WHERE `pk_id` = 290 [ RunTime:0.0112s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:10+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='10' WHERE `pk_id` = 290 [ RunTime:0.0156s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:11+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='9' WHERE `pk_id` = 290 [ RunTime:0.0133s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:12+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='10' WHERE `pk_id` = 290 [ RunTime:0.0107s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:14+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='12' WHERE `pk_id` = 290 [ RunTime:0.0094s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:16+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='12' WHERE `pk_id` = 290 [ RunTime:0.0093s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:18+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='11' WHERE `pk_id` = 290 [ RunTime:0.0103s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:20+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='11' WHERE `pk_id` = 290 [ RunTime:0.0111s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:22+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='9' WHERE `pk_id` = 290 [ RunTime:0.0098s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:25+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='6' WHERE `pk_id` = 290 [ RunTime:0.0101s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:27+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/-3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='8' WHERE `pk_id` = 290 [ RunTime:0.0131s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:30+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/-2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005128s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='6' WHERE `pk_id` = 290 [ RunTime:0.0135s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:32+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='5' WHERE `pk_id` = 290 [ RunTime:0.0100s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:34+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='5' WHERE `pk_id` = 290 [ RunTime:0.0108s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:36+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012270s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='3' WHERE `pk_id` = 290 [ RunTime:0.0095s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:51+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='0' WHERE `pk_id` = 290 [ RunTime:0.0114s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:53+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='4' WHERE `pk_id` = 290 [ RunTime:0.0108s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:56:55+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/-2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='2' WHERE `pk_id` = 290 [ RunTime:0.0207s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:01+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='1' WHERE `pk_id` = 290 [ RunTime:0.0107s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:03+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='3' WHERE `pk_id` = 290 [ RunTime:0.0102s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:06+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='1' WHERE `pk_id` = 290 [ RunTime:0.0111s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:08+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='3' WHERE `pk_id` = 290 [ RunTime:0.0089s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:08+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='6' WHERE `pk_id` = 290 [ RunTime:0.0137s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:10+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='9' WHERE `pk_id` = 290 [ RunTime:0.0122s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:33+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='4' WHERE `pk_id` = 290 [ RunTime:0.0096s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:35+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='6' WHERE `pk_id` = 290 [ RunTime:0.0124s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:36+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='9' WHERE `pk_id` = 290 [ RunTime:0.0137s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:38+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='10' WHERE `pk_id` = 290 [ RunTime:0.0154s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:39+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='12' WHERE `pk_id` = 290 [ RunTime:0.0107s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:41+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='15' WHERE `pk_id` = 290 [ RunTime:0.0108s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:57:42+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006272s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='10' WHERE `pk_id` = 290 [ RunTime:0.0106s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:33+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='16' WHERE `pk_id` = 290 [ RunTime:0.0093s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:35+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='18' WHERE `pk_id` = 290 [ RunTime:0.0104s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:38+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='20' WHERE `pk_id` = 290 [ RunTime:0.0084s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:40+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='21' WHERE `pk_id` = 290 [ RunTime:0.0121s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:43+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003570s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='13' WHERE `pk_id` = 290 [ RunTime:0.0101s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:45+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='15' WHERE `pk_id` = 290 [ RunTime:0.0114s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:47+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='22' WHERE `pk_id` = 290 [ RunTime:0.0556s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:50+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008942s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='24' WHERE `pk_id` = 290 [ RunTime:0.0141s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:52+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='25' WHERE `pk_id` = 290 [ RunTime:0.0116s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:54+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='24' WHERE `pk_id` = 290 [ RunTime:0.0104s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:57+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='23' WHERE `pk_id` = 290 [ RunTime:0.0092s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:58:59+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='21' WHERE `pk_id` = 290 [ RunTime:0.0096s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:00+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='22' WHERE `pk_id` = 290 [ RunTime:0.0100s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:01+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='24' WHERE `pk_id` = 290 [ RunTime:0.0080s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:02+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='27' WHERE `pk_id` = 290 [ RunTime:0.0133s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:06+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='16' WHERE `pk_id` = 290 [ RunTime:0.0148s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:07+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='19' WHERE `pk_id` = 290 [ RunTime:0.0095s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:08+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='28' WHERE `pk_id` = 290 [ RunTime:0.0107s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:10+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='30' WHERE `pk_id` = 290 [ RunTime:0.0106s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:11+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='33' WHERE `pk_id` = 290 [ RunTime:0.1701s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0003s ]
+
+[ 2017-05-02T13:59:13+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003978s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='35' WHERE `pk_id` = 290 [ RunTime:0.0082s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:15+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006615s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='36' WHERE `pk_id` = 290 [ RunTime:0.0116s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:17+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='22' WHERE `pk_id` = 290 [ RunTime:0.0114s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:19+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='24' WHERE `pk_id` = 290 [ RunTime:0.0111s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:20+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='25' WHERE `pk_id` = 290 [ RunTime:0.0130s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:23+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='35' WHERE `pk_id` = 290 [ RunTime:0.0130s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:26+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='33' WHERE `pk_id` = 290 [ RunTime:0.0088s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T13:59:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/-3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='30' WHERE `pk_id` = 290 [ RunTime:0.0121s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T15:23:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/888666/phone_name/13929702814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13929702814'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13929702814'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+
+[ 2017-05-02T15:23:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0008s ]
+
+[ 2017-05-02T15:23:28+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 6  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_level` <= '2' AND `t_id` <> '12' ORDER BY t_level desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0007s ]
+
+[ 2017-05-02T15:23:30+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0009s ]
+
+[ 2017-05-02T15:23:30+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0005s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0009s ]
+
+[ 2017-05-02T15:23:31+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0061s ]
+
+[ 2017-05-02T15:23:31+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0005s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0006s ]
+
+[ 2017-05-02T15:23:31+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0013s ]
+
+[ 2017-05-02T15:23:31+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `reg_league` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reg_league` WHERE `reg_id` = 6  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 220  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 435 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `pk` WHERE `t_id2` = '12' AND `pk_character` = 0  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 0  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 2  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: data3 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 500 行.
+NOTIC: [8] Undefined variable: data4 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 501 行.
+NOTIC: [8] Undefined variable: data2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 502 行.
+
+[ 2017-05-02T15:23:31+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-05-02T15:24:01+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='26' WHERE `pk_id` = 290 [ RunTime:0.0108s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T15:24:04+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/2/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score2`='31' WHERE `pk_id` = 290 [ RunTime:0.0099s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T15:26:47+08:00 ] 117.136.41.100 /ScoreBoard/app.php/Home/Index/add_score/reg_id/1/pk_id/290/team/1/add_score/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/ScoreBoard/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `pk` SET `score1`='27' WHERE `pk_id` = 290 [ RunTime:0.0122s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0002s ]
+
+[ 2017-05-02T21:45:20+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/car
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008710s ]
+

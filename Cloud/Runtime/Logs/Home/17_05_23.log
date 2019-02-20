@@ -1,0 +1,388 @@
+[ 2017-05-23T00:46:05+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1495471561742
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003613s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.1691s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0019s ]
+
+[ 2017-05-23T00:46:05+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1495471561741
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003801s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.1693s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0013s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+
+[ 2017-05-23T00:46:05+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1495471561739
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.1693s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0016s ]
+
+[ 2017-05-23T00:46:05+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1495471561740
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003120s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.1690s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0010s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0003s ]
+
+[ 2017-05-23T00:46:05+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/add_view?&callback=flightHandler&_=1495471561743
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002838s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.1692s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0011s ]
+SQL: UPDATE `number` SET `view_num`='1846' WHERE `id` = 1 [ RunTime:0.0389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003827s ]
+
+[ 2017-05-23T00:46:05+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1495471561738
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002670s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.1702s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 247 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 250 行.
+
+[ 2017-05-23T00:46:05+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1495471561741
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0046s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+
+[ 2017-05-23T00:46:05+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1495471561739
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0001s ]
+
+[ 2017-05-23T00:46:05+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1495471561742
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0019s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0093s ]
+
+[ 2017-05-23T00:46:05+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1495471561738
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024028s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 247 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 250 行.
+
+[ 2017-05-23T00:46:05+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1495471561744
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0121s ]
+
+[ 2017-05-23T00:46:06+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1495471561744
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0005s ]
+
+[ 2017-05-23T00:46:06+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1495471561740
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0008s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0004s ]
+
+[ 2017-05-23T00:47:12+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/add_view?&callback=flightHandler&_=1495471632452
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0009s ]
+SQL: UPDATE `number` SET `view_num`='1847' WHERE `id` = 1 [ RunTime:0.0104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002685s ]
+
+[ 2017-05-23T00:47:13+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1495471632448
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016214s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0014s ]
+
+[ 2017-05-23T00:47:13+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1495471632447
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0053s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 247 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 250 行.
+
+[ 2017-05-23T00:47:13+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_news?&_=1495471632448
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `outnews` LIMIT 0,6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `outnews` LIMIT 6,3   [ RunTime:0.0005s ]
+
+[ 2017-05-23T00:47:13+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/pk_show?&_=1495471632447
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 247 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 250 行.
+
+[ 2017-05-23T00:47:14+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1495471632451
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0039s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0032s ]
+
+[ 2017-05-23T00:47:14+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1495471632450
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0056s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+
+[ 2017-05-23T00:47:14+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1495471632449
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0008s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0051s ]
+
+[ 2017-05-23T00:47:15+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/scanner_show?&_=1495471632451
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2017-05-23T00:47:15+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_team?&_=1495471632450
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0032s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 478 行.
+
+[ 2017-05-23T00:47:15+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_videos?&_=1495471632449
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0041s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0006s ]
+
+[ 2017-05-23T00:47:15+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1495471632453
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008861s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0009s ]
+
+[ 2017-05-23T00:47:15+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Home/Show/show_view_download?&_=1495471632453
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0007s ]
+

@@ -1,0 +1,2160 @@
+[ 2017-03-24T11:58:07+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0001s ]
+
+[ 2017-03-24T11:58:16+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-03-24T12:07:45+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/888666/phone_name/13929702814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13929702814'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13929702814'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:07:45+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:07:46+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_level` <= '2' AND `t_id` <> '12' ORDER BY t_level desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:07:48+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0069s ]
+
+[ 2017-03-24T12:07:48+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018031s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:07:48+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0010s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0035s ]
+
+[ 2017-03-24T12:07:48+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0008s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0026s ]
+
+[ 2017-03-24T12:07:48+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0010s ]
+
+[ 2017-03-24T12:07:48+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0034s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-03-24T12:07:48+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `reg_league` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_league` WHERE `reg_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 220  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 430 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 432 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 430 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 432 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `pk` WHERE `t_id2` = '12' AND `pk_character` = 0  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 0  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 2  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: data3 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 497 行.
+NOTIC: [8] Undefined variable: data4 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 498 行.
+NOTIC: [8] Undefined variable: data2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 499 行.
+
+[ 2017-03-24T12:08:18+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-03-24T12:09:05+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-03-24T12:12:16+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:12:16+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/123/phone_name/17322434548
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '17322434548'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '17322434548'  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 28 行.
+
+[ 2017-03-24T12:12:17+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0002s ]
+
+[ 2017-03-24T12:12:19+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0009s ]
+
+[ 2017-03-24T12:12:19+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0004s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0007s ]
+
+[ 2017-03-24T12:12:19+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0105s ]
+
+[ 2017-03-24T12:12:19+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:12:19+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0030s ]
+
+[ 2017-03-24T12:12:19+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-03-24T12:12:19+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-03-24T12:12:20+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:12:52+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:12:52+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/888666/phone_name/13929702814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13929702814'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13929702814'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:12:53+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_level` <= '2' AND `t_id` <> '12' ORDER BY t_level desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:12:55+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0010s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0018s ]
+
+[ 2017-03-24T12:12:55+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021512s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0010s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0028s ]
+
+[ 2017-03-24T12:12:55+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:12:55+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0017s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0013s ]
+
+[ 2017-03-24T12:12:55+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0008s ]
+
+[ 2017-03-24T12:12:55+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-03-24T12:12:55+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_league` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `reg_league` WHERE `reg_id` = 6  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 220  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 430 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 432 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 430 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 432 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `pk` WHERE `t_id2` = '12' AND `pk_character` = 0  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 0  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 2  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: data3 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 497 行.
+NOTIC: [8] Undefined variable: data4 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 498 行.
+NOTIC: [8] Undefined variable: data2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 499 行.
+
+[ 2017-03-24T12:13:11+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-03-24T12:14:03+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-03-24T12:23:10+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/123/phone_name/17322434548
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '17322434548'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '17322434548'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 28 行.
+
+[ 2017-03-24T12:23:10+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:23:12+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:23:14+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013461s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0111s ]
+
+[ 2017-03-24T12:23:14+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2017-03-24T12:23:14+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0010s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0020s ]
+
+[ 2017-03-24T12:23:14+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0029s ]
+
+[ 2017-03-24T12:23:14+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0008s ]
+
+[ 2017-03-24T12:23:14+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0009s ]
+
+[ 2017-03-24T12:23:14+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-03-24T12:23:15+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:26:47+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-03-24T12:27:13+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:27:13+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/123/phone_name/17322434548
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '17322434548'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '17322434548'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 28 行.
+
+[ 2017-03-24T12:27:15+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:27:18+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:27:18+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:27:18+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:27:18+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0014s ]
+
+[ 2017-03-24T12:27:18+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0016s ]
+
+[ 2017-03-24T12:27:18+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0004s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0035s ]
+
+[ 2017-03-24T12:27:18+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0022s ]
+
+[ 2017-03-24T12:27:18+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0007s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:27:18+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-03-24T12:27:19+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:27:20+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:27:20+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:27:20+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:27:21+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-03-24T12:27:23+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:27:28+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0009s ]
+
+[ 2017-03-24T12:27:28+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0009s ]
+
+[ 2017-03-24T12:27:28+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:29:39+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/123/phone_name/17322434548
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '17322434548'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '17322434548'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 28 行.
+
+[ 2017-03-24T12:29:39+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:29:40+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:29:42+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0010s ]
+
+[ 2017-03-24T12:29:42+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0009s ]
+
+[ 2017-03-24T12:29:42+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0011s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0021s ]
+
+[ 2017-03-24T12:29:42+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0016s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0019s ]
+
+[ 2017-03-24T12:29:42+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0012s ]
+
+[ 2017-03-24T12:29:42+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0009s ]
+
+[ 2017-03-24T12:29:42+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-03-24T12:29:43+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:33:41+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004698s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:33:41+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/123/phone_name/17322434548
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '17322434548'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '17322434548'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/LoginController.class.php 第 28 行.
+
+[ 2017-03-24T12:33:43+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:33:45+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:33:45+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0009s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0038s ]
+
+[ 2017-03-24T12:33:45+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0027s ]
+
+[ 2017-03-24T12:33:45+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022136s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0028s ]
+
+[ 2017-03-24T12:33:45+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0027s ]
+
+[ 2017-03-24T12:33:45+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0010s ]
+
+[ 2017-03-24T12:33:45+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-03-24T12:33:46+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 54  [ RunTime:0.0001s ]
+
+[ 2017-03-24T12:34:21+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/map/jingdu/110.924494/weidu/21.669495
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-03-24T12:34:58+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Index/map/jingdu/110.931397/weidu/21.665793
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-03-24T14:54:41+08:00 ] 210.12.122.70 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T18:33:59+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-03-24T18:34:12+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-03-24T18:34:50+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-03-24T18:34:56+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-03-24T18:35:09+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-03-24T18:35:15+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-03-24T18:35:21+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-03-24T18:35:27+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-03-24T18:35:34+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-03-24T18:35:47+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-03-24T18:36:10+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-03-24T18:36:15+08:00 ] 125.88.122.103 /ScoreBoard/app.php/Home/Index/map/jingdu/110.627281/weidu/21.303419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-03-24T19:50:35+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490356232932
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:06:16+08:00 ] 14.30.96.35 /ScoreBoard/app.php/Home/Search/search_place/id/province
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:06:16+08:00 ] 14.30.96.35 /ScoreBoard/app.php/Home/Login/do_login/login_pwd/888666/phone_name/13929702814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_phone` = '13929702814'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = '13929702814'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:06:17+08:00 ] 14.30.96.35 /ScoreBoard/app.php/Home/Index/recommend_pk/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_level` <= '2' AND `t_id` <> '12' ORDER BY t_level desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` ORDER BY t_level desc  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:06:19+08:00 ] 14.30.96.35 /ScoreBoard/app.php/Home/Show/carousel_pic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `pk_name`,`image1` FROM `pk` LIMIT 0,3   [ RunTime:0.0073s ]
+
+[ 2017-03-24T22:06:19+08:00 ] 14.30.96.35 /ScoreBoard/app.php/Home/Do/outnews_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `outnews` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `outnews`  [ RunTime:0.0032s ]
+
+[ 2017-03-24T22:06:19+08:00 ] 14.30.96.35 /ScoreBoard/app.php/Home/Show/rank_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013772s ]
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0012s ]
+SQL: SELECT `reg_name`,`reg_winTime`,`reg_lostTime`,`reg_level` FROM `reguser` ORDER BY reg_level desc  [ RunTime:0.0023s ]
+
+[ 2017-03-24T22:06:19+08:00 ] 14.30.96.35 /ScoreBoard/app.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0013s ]
+SQL: SELECT `t_name`,`t_winTime`,`t_lostTime`,`t_level` FROM `team` ORDER BY t_level desc  [ RunTime:0.0032s ]
+
+[ 2017-03-24T22:06:19+08:00 ] 14.30.96.35 /ScoreBoard/app.php/Home/Show/show_publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pk` WHERE `state` = 0 AND `pk_character` <> 1  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user_team` WHERE `t_id` = 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `scoreboard` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `scoreboard` WHERE `reg_id` = 2  [ RunTime:0.0008s ]
+
+[ 2017-03-24T22:06:19+08:00 ] 14.30.96.35 /ScoreBoard/app.php/Home/Show/pk_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016729s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pk` WHERE `state` >= 1  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0031s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 72 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 75 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/ShowController.class.php 第 76 行.
+
+[ 2017-03-24T22:06:19+08:00 ] 14.30.96.35 /ScoreBoard/app.php/Home/Index/pk_myself/reg_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `user_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_team` WHERE `reg_id` = 6  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `reg_league` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `reg_league` WHERE `reg_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 220  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 430 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 432 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `pk` WHERE `pk_id` = 290  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: t_id2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 430 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 432 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 433 行.
+SQL: SELECT * FROM `pk` WHERE `t_id2` = '12' AND `pk_character` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 0  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pk` WHERE `t_id1` = '12' AND `pk_character` = 2  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: data3 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 497 行.
+NOTIC: [8] Undefined variable: data4 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 498 行.
+NOTIC: [8] Undefined variable: data2 /var/www/ScoreBoard/App/Home/Controller/IndexController.class.php 第 499 行.
+
+[ 2017-03-24T22:25:22+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365522545
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:25:26+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365526538
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013084s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:25:29+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365529022
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:25:33+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365533681
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:25:43+08:00 ] 101.226.69.246 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365533681
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:26:45+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365605701
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016506s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:26:49+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365609104
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015588s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:26:51+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365611021
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:26:52+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365611763
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:26:53+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365613162
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:26:55+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365615550
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009060s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:26:56+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365616224
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:26:57+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365616739
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.1528s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:26:58+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365617795
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:27:00+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365620498
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:27:01+08:00 ] 101.226.51.227 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365611763
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021828s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0009s ]
+
+[ 2017-03-24T22:27:02+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365622591
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:27:03+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365623217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:27:04+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365624272
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:27:05+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365625320
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:27:13+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365633607
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:27:15+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365634952
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:27:48+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365668100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:27:57+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365677573
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:28:00+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365679831
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015589s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:28:18+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365698138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:33:02+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365982285
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:33:05+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365984837
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:33:14+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365993987
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:33:16+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365996383
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-03-24T22:33:17+08:00 ] 113.107.163.197 /ScoreBoard/app.php/Home/Show/show_view_download?&_=1490365997464
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `number` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `number` WHERE `id` = 1  [ RunTime:0.0001s ]
+

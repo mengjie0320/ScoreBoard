@@ -1,0 +1,41 @@
+[ 2017-03-16T00:53:56+08:00 ] 101.226.61.207 /ScoreBoard/cloud.php/Home/Show/show_team?%2526_%253D1489581892896
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.0001s ]
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 404 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 404 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 404 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 404 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 404 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 404 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 404 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 404 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 404 行.
+NOTIC: [2] Division by zero /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 404 行.
+
+[ 2017-03-16T01:57:48+08:00 ] 180.153.214.178 /ScoreBoard/cloud.php/Home/Show/scanner_show?%26_%3D1489584412330
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0005s ]
+SQL: SELECT `image1`,`pk_name` FROM `pk` WHERE ( state=1 ) LIMIT 0,4   [ RunTime:0.0001s ]
+
+[ 2017-03-16T03:45:24+08:00 ] 180.153.206.18 /ScoreBoard/cloud.php/Home/Show/show_pk_id?%26pk_id%3D3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined index: pk_id /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 117 行.
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk` WHERE `pk_id` = null  [ RunTime:0.0002s ]
+

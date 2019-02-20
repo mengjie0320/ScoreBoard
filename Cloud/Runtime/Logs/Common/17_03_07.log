@@ -1,0 +1,54 @@
+[ 2017-03-07T22:14:29+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Index/change_image/reg_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-07T22:14:30+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Index/change_image/reg_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-07T22:14:31+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Index/change_image/reg_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-07T22:14:31+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Index/change_image/reg_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-07T22:14:31+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Index/change_image/reg_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-07T22:14:31+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Index/change_image/reg_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-07T22:51:04+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Index/change_image?reg_id=regId
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-07T22:51:19+08:00 ] 113.107.163.197 /ScoreBoard/cloud.php/Index/change_image?reg_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-07T22:51:29+08:00 ] 101.226.61.206 /ScoreBoard/cloud.php/Index/change_image?reg_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+ERR: 无法加载模块:Index
+

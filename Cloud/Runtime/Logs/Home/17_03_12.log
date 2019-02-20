@@ -1,0 +1,1075 @@
+[ 2017-03-12T08:20:40+08:00 ] 101.226.51.229 /ScoreBoard/cloud.php/Home/Show/show_all_pk?%26_%3D1489199475401
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pk`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 6  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 6  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 6  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 6  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 6  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 6  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 5  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 6  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 6  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 5  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 12  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 5  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `team` WHERE `t_id` = 6  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 15  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 5  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 5  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 2  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 10  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 3  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 22 行.
+SQL: SELECT * FROM `team` WHERE `t_id` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 0 /var/www/ScoreBoard/Cloud/Home/Controller/ShowController.class.php 第 28 行.
+
+[ 2017-03-12T08:57:58+08:00 ] 101.226.66.187 /ScoreBoard/cloud.php/Home/Show/show_videos?%26_%3D1489199465048
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `pk` [ RunTime:0.0006s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT `image1`,`pk_name`,`intro` FROM `pk` WHERE ( state=1 ) ORDER BY pk_id desc LIMIT 4,3   [ RunTime:0.0003s ]
+
+[ 2017-03-12T10:14:05+08:00 ] 101.226.51.227 /ScoreBoard/cloud.php/Home/Login/do_reg/reg_name/nnn/reg_phone/0222/reg_pwd/2555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: callback /var/www/ScoreBoard/Cloud/Home/Controller/LoginController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = 'nnn'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-03-12T10:14:05+08:00 ] 140.207.185.107 /ScoreBoard/cloud.php/Home/Login/do_reg/reg_name/nnn/reg_phone/0222/reg_pwd/2555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined index: callback /var/www/ScoreBoard/Cloud/Home/Controller/LoginController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = 'nnn'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-03-12T10:14:05+08:00 ] 180.153.205.254 /ScoreBoard/cloud.php/Home/Login/do_reg/reg_name/nnn/reg_phone/0222/reg_pwd/2555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined index: callback /var/www/ScoreBoard/Cloud/Home/Controller/LoginController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = 'nnn'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-03-12T10:14:08+08:00 ] 180.153.214.180 /ScoreBoard/cloud.php/Home/Login/do_reg/reg_name/nnn/reg_phone/0222/reg_pwd/2555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined index: callback /var/www/ScoreBoard/Cloud/Home/Controller/LoginController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_name` = 'nnn'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-03-12T12:17:26+08:00 ] 101.226.99.196 /ScoreBoard/cloud.php/Home/Index/show_personal?%2526reg_id%253D10%2526_%253D1489199613708
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Undefined index: reg_id /var/www/ScoreBoard/Cloud/Home/Controller/IndexController.class.php 第 326 行.
+SQL: SHOW COLUMNS FROM `reguser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reguser` WHERE `reg_id` = null  [ RunTime:0.0001s ]
+

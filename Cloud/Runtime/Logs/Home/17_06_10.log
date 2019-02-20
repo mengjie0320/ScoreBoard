@@ -1,0 +1,9 @@
+[ 2017-06-10T08:51:28+08:00 ] ::1 /ScoreBoard/cloud.php/Home/Show/rank_team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+ERR: 非法操作:rank_team
+

@@ -1,0 +1,12 @@
+[ 2017-05-16T19:28:15+08:00 ] 120.82.94.166 /ScoreBoard/cloud.php/Index/change_image?&callback=flightHandler&reg_id=10&image=blob%3Ahttp%3A%2F%2Fhardtry.cn%2F97bc1ddd-5819-4b1e-8687-f9c7c61ee1c7&_=1494934022606
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+ERR: 无法加载模块:Index
+
+[ 2017-05-16T19:28:21+08:00 ] 120.82.94.166 /ScoreBoard/cloud.php/Index/change_image?&callback=flightHandler&reg_id=10&image=blob%3Ahttp%3A%2F%2Fhardtry.cn%2F97bc1ddd-5819-4b1e-8687-f9c7c61ee1c7&_=1494934022607
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+ERR: 无法加载模块:Index
+
