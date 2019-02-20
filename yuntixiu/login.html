@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" href="css/login.css" />
+		<link rel="icon" href="images/homepage/logoyhz.ico" />
+	</head>
+	<body>
+		<div class="container" id="container">
+			<div class="warpper" id="warpper">
+				<header class="name_h ">
+					<p>云体秀</p>
+				</header>
+				<section>
+					<article>
+						<p id="info"></p>
+					</article>
+				</section>
+				<section class="content">
+					<form onsubmit="return checkNull()">
+						<input type="text" placeholder="用户名"/ id="user_name">
+						<input  type="password" placeholder="密码"/ id="password">
+						<input type="text" placeholder="验证码" id="verify"/>
+						<aside>
+							<p id="code">12123</p>
+						</aside>
+						<footer>
+							<input type="button" value="登录" id="login"/>
+						</footer>
+					</form>
+				</section>
+				<footer class="forget">
+					<article>
+						<a href="#">忘记密码</a>
+						<a href="register.html">注册</a>
+					</article>
+				</footer>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-2.2.1.min.js" ></script>
+		<script type="text/javascript" src="js/login.js" ></script>
+		<script type="text/javascript" src="js/cookie.js"></script>
+	</body>
+</html>

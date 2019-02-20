@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀管理员管理</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <include file="__URL__/left"></include>
+	   <form enctype="multipart/form-data" action="__URL__/add_news" method="post">
+	    	<table border="1">
+				<thead>
+					<tr>
+						<th>管理员名字</th>
+						<th>管理员密码</th>
+						<th>管理员权限</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th><input type="text" name="add_admin_admin_name" id=""></th>
+						<th><input type="text" name="add_admin_admin_pwd" id=""></th>
+						<th><input type="radio" name="add_admin_admin_limit" value="0" id="">0
+						    &nbsp;&nbsp;<input type="radio" name="add_admin_admin_limit" value="2" id="">2
+						</th>
+					</tr>
+				</tbody>
+			</table>
+			<input type="submit" width="30px" height="70px" value="添加admin" name="submit_add_admin"> 
+	   </form>
+	<br><br>
+	
+	<table>
+		
+		<thead>
+			<tr>
+				<th>管理员名字</th>
+				<th>管理员密码</th>
+				<th>管理员权限</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist id="admin_info" name = "admin_info">
+			<tr>
+				<th>{$admin_info['admin_name']}</th>
+				<th>{$admin_info['admin_pwd']}</th>
+				<th>{$admin_info['admin_limit']}</th>
+				<th><a href="__URL__/change_admin/{$admin_info['admin_id']}">修改</th>
+				<th><a href="__URL__/delete_admin/{$admin_info['admin_id']}">删除</th>
+			</tr>
+			</volist>
+		</tbody>		
+	</table>
+	
+</body>
+</html>

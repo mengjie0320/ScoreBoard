@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀订单信息</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <include file="__URL__/left"></include>
+	   <form enctype="multipart/form-data" action="__URL__/add_order" method="post">
+	    	<table border="1">
+				<thead>
+					<tr>
+						<th>购买人员id</th>
+						<th>记分牌id</th>
+						<th>购买时间</th>
+						<th>是否支付</th>
+						<th>价格</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th><input type="text" name="add_order_reg_id" id=""></th>
+						<th><input type="text" name="add_order_sb_id" id=""></th>
+						<th><input type="text" name="add_order_shopTime" id=""></th>
+						<th><input type="text" name="add_order_is_paid" id=""></th>
+						<th><input type="text" name="add_order_price" id=""></th>
+					</tr>
+				</tbody>
+			</table>
+			<input type="submit" width="30px" height="70px" value="添加order信息" name="submit_add_order"> 
+	   </form>
+	<br><br>
+	
+	<table>
+		
+		<thead>
+			<tr>
+				<th>购买人员id</th>
+				<th>记分牌id</th>
+				<th>购买时间</th>
+				<th>是否支付</th>
+				<th>价格</th>
+				<th>修改</th>
+				<th>删除</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist id="order_info" name = "order_info">
+			<tr>
+				<th>{$order_info['reg_id']}</th>
+				<th>{$order_info['sb_id']}</th>
+				<th>{$order_info['shopTime']}</th>
+				<th>{$order_info['is_paid']}</th>
+				<th>{$order_info['price']}</th>
+				<th><a href="__URL__/change_order/{$order_info['order_id']}">修改</th>
+				<th><a href="__URL__/delete_order/{$order_info['order_id']}">删除</th>
+			</tr>
+			</volist>
+		</tbody>		
+	</table>
+	{$page}
+</body>
+</html>

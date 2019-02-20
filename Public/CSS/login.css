@@ -1,0 +1,243 @@
+﻿@CHARSET "UTF-8";
+
+/****************reset****************/
+body,h1,h2,h3,h4,h5,h6,p,form,input{
+	margin:0;
+	padding:0;
+}
+b{
+	font-weight:normal;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none; 
+	vertical-align:top;
+}
+
+/****************end reset****************/
+
+/****************login****************/
+body{
+	background:url(../images/bg.gif) repeat-x;
+}
+#logo{
+	width:960px;
+	height:80px;
+	margin:0 auto;
+	position:relative;
+}
+#logo img{
+	position:absolute;
+	left:0;
+	top:10px;
+}
+#warp {
+	width:100%;
+	height:466px;
+	z-index:1;
+	background:#103754;
+}
+#bg-pic{
+	height:466px;
+	width:988px;
+	margin:0 auto;
+	z-index:2;
+	background:url(../images/login_bg_pic.jpg) no-repeat;
+}
+#login{
+	height:440px;
+	float:right;
+	width:348px;
+	position:relative;
+	top:10px;
+	z-index:3;
+	background:#fff;
+	border:1px solid #e1e1e1;
+	border-radius:10px;
+}
+.login-form h3{
+	height:36px;
+	width:180px;
+	line-height:36px;
+	color:#097BF8;
+	position:relative;
+	top:0px;
+	left:20px;
+	font-weight:normal;
+}
+.login-form a{
+	font-family:"微软雅黑";
+	color:#097BF8;
+	font-size:12px;
+	float:right;
+	position:absolute;
+	top:26px;
+	right:20px;
+
+	
+}
+.login-form a:hover{
+	text-decoration:underline;
+	color:#55A7FC;
+}
+
+.login-box{
+	width:310px;
+	height:38px;
+	border:1px solid #e1e1e1;
+	position:relative;
+	top:60px;
+	left:0;
+	border-radius:5px;
+	margin:0 auto 20px;
+}
+.login-box:hover{
+	border:1px solid #097BF8;
+}
+#user-pic,#pwd-pic{
+	background:rgba(0,0,0,0) url(../images/login-icon.png) no-repeat 0 0;
+	height:38px;
+	width:38px;
+	border-right:1px solid #e1e1e1;
+	position:absolute;
+	top:0px;
+	left:0;
+}
+#user-pic{
+	background:rgba(0,0,0,0) url(../images/login-icon.png) no-repeat 0 0;
+}
+#pwd-pic{
+	background:rgba(0,0,0,0) url(../images/login-icon.png) no-repeat 0 -38px;
+}
+.login{
+	position:relative;
+	left:50px;
+	top:11px;
+	border:none;
+	background:none;
+	outline:none;
+	width:260px;
+}
+.codes-box{
+	width:180px;
+	height: 38px;
+	border:1px solid #e1e1e1;
+	position:relative;
+	top:60px;
+	left:20px;
+	border-radius:5px;
+}
+.codes-box input{
+	width:170px;
+	height: 14px;
+	background: none;
+	border:none;
+	outline:none;
+	position:relative;
+	left:10px;
+	top:11px;
+}
+.codes-img{
+	position: relative;
+	top: 22px;
+	left: 216px;
+}
+.checked{
+	position:relative;
+	top:2px;
+	left:0;
+}
+.checked-1,.checked-2{
+	height:25px;
+	line-height:25px;
+	width:50px;
+	position:relative;
+	top:20px;
+	color:#666;
+	font-size:14px;
+	display:block;
+}
+.checked-1{
+	left:20px;
+}
+.checked-2{
+	right:20px;
+	float:right;
+	top:0px;
+	
+}
+
+#login-btn{
+	position:relative;
+	top:30px;
+	left:20px;
+	margin:-10px auto;
+	width:304px;
+	height:44px;
+	background: url(../images/login_bg.png) no-repeat;
+	border-radius:6px;
+	cursor:pointer;
+	border:none;
+}
+#login-btn:hover{
+	background:url(../images/login_bg2.png);
+}
+
+.safe{
+	position:relative;
+	font-size:12px;
+	line-height:25px;
+	font-family:"宋体";
+	color:#666;
+	height:25px;
+	width:306px;
+	margin:0 auto;
+	top:48px;
+	left:0px;
+}
+.safe a{
+	position:relative;
+	top:0px;
+	right:0px;
+	color:#666;
+	float:right;
+}
+.safe a:hover,.foot-ali a:hover{
+	color:#097BF8;
+}
+.remember{
+	position:relative;
+	top:3px;
+	left:0;
+}
+.footer{
+	height:60px;
+	width:100%;
+	margin:80px auto 20px;
+	border-top:1px solid #fff;;
+}
+.foot-ali{
+	width:960px;
+	font-size:14px;
+	text-align:center;
+	height:18px;
+	line-height:18px;
+	padding-top:20px;
+	margin:0 auto;
+
+}
+.foot-ali b{
+	color:#fff;
+	font-weight:normal;
+	margin:0 4px;
+}
+.foot-ali a{
+	color:#fff;
+	text-decoration:none;
+	margin:0 4px;
+}
+
+
+/****************end login****************

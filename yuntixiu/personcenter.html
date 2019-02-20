@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人中心</title>
+		<link rel="stylesheet" href="css/personcenter.css" />
+		<link rel="icon" href="images/homepage/logoyhz.ico" />
+		<script type="text/javascript" src="js/jquery-2.2.1.min.js" ></script>
+		<script type="text/javascript" src="js/personcenter.js" ></script>
+		<script type="text/javascript" src="js/cookie.js" ></script>
+		<script type="text/javascript">
+	var regId = getCookie("reg_id");
+			
+function setTab(name,cursel){
+	cursel_0=cursel;
+	for(var i=1; i<=links_len; i++){
+		var menu = document.getElementById(name+i);
+		var menudiv = document.getElementById("con_"+name+"_"+i);
+		if(i==cursel){
+			menu.className="off";
+			menudiv.style.display="block";
+		}
+		else{
+			menu.className="";
+			menudiv.style.display="none";
+		}
+	}
+}
+function Next(){                                                        
+	cursel_0++;
+	if (cursel_0>links_len)cursel_0=1
+	setTab(name_0,cursel_0);
+} 
+var name_0='one';
+var cursel_0=1;
+var ScrollTime=3000;//循环周期（毫秒）
+var links_len,iIntervalId;
+onload=function(){
+	var links = document.getElementById("tab1").getElementsByTagName('li')
+	links_len=links.length;
+	for(var i=0; i<links_len; i++){
+		links[i].onmouseover=function(){
+			clearInterval(iIntervalId);
+			this.onmouseout=function(){
+				iIntervalId = setInterval(Next,ScrollTime);;
+			}
+		}
+	}
+	document.getElementById("con_"+name_0+"_"+links_len).parentNode.onmouseover=function(){
+		clearInterval(iIntervalId);
+		this.onmouseout=function(){
+			iIntervalId = setInterval(Next,ScrollTime);;
+		}
+	}
+	setTab(name_0,cursel_0);
+	iIntervalId = setInterval(Next,ScrollTime);
+}
+</script>
+<script>
+
+  
+var imgurl = "";  
+  
+function getImgURL(node) {    
+    var imgURL = "";      
+    try{     
+        var file = null;  
+        if(node.files && node.files[0] ){  
+            file = node.files[0];   
+        }else if(node.files && node.files.item(0)) {                                  
+            file = node.files.item(0);     
+        }     
+        //Firefox 因安全性问题已无法直接通过input[file].value 获取完整的文件路径  
+        try{  
+            //Firefox7.0   
+            imgURL =  file.getAsDataURL();    
+            //alert("//Firefox7.0"+imgRUL);                           
+        }catch(e){  
+            //Firefox8.0以上                                
+            imgRUL = window.URL.createObjectURL(file);  
+            //alert("//Firefox8.0以上"+imgRUL);  
+        }  
+     }catch(e){      //这里不知道怎么处理了，如果是遨游的话会报这个异常                   
+        //支持html5的浏览器,比如高版本的firefox、chrome、ie10  
+        if (node.files && node.files[0]) {                            
+            var reader = new FileReader();   
+            reader.onload = function (e) {                                        
+                imgURL = e.target.result;    
+            };  
+            reader.readAsDataURL(node.files[0]);   
+        }    
+     }  
+    //imgurl = imgURL;  
+    creatImg(imgRUL);  
+    return imgURL;  
+}  
+         
+function creatImg(imgRUL){   //根据指定URL创建一个Img对象  
+    $("#head_photo").attr('src',imgRUL);  
+}  
+$(function(){
+	$("#upload").click(function(){
+		$.ajax({
+					contentType:"application/json",
+					type:"post",
+					url:"http://120.27.95.22/ScoreBoard/cloud.php/Index/change_image?",
+					data:{
+						reg_id:regId,
+						image:imgRUL
+					},
+					dataType:"jsonp",
+					jsonpCallback:"flightHandler",
+					cache:false,
+					async:true,
+					success:function(json){
+							data = JSON.stringify(json);
+							alert(data);
+						if(json.success == "1"){
+							
+						}else{
+							
+						}
+					},
+					error:function(XMLHttpRequest, textStatus, errorThrown){
+						alert(XMLHttpRequest.status);
+						alert(XMLHttpRequest.readyState);
+						alert(textStatus);
+			}
+			})
+	})
+	
+})
+</script>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class="header">
+			<div class="header_center">
+				<div class="nav_first">
+					<ul>
+						<li><a href="homepage.html">云体秀</a></li>
+						<li><a href="#">移动客户端</a></li>
+						<li id="li_third"><a href="#">关注云体秀</a>
+							<ul>
+								<div class="triangle_up"><span></span></div>  <!--三角形 -->
+								<li><a href="#">新浪微博</a></li>
+								<li><a href="#">官方微信</a></li>
+								<li><a href="#">腾讯微博</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="search">
+					<form>
+						<input type="search" id="searchContent"  value="" placeholder="请输入关键字…"/>
+						<button type="button" ></button>
+					</form>
+					<div class ="search-content"></div>
+				</div>
+				<div class="nav_last">
+					<ul>
+						<li  id="my_set"><a href="#" >我的</a>
+							<ul>
+								<li><a href="#">
+									退出
+								</a>
+								</li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+			</header>
+			<div class="warpper">
+				<div class="content">
+				<article id="word_f">
+					<p>个人中心</p>
+				</article>
+				<figure>
+					<img src="images/special/头像.png" width="65" height="65" alt="" id="head_photo"/>
+					<p id="id_name">账号昵称</p>
+					<aside id="peseon_info">
+						<form action="">
+							<label>昵称	</label>
+							<input type="text" name="" disabled="disabled" id="nickname"/>
+							<label>账号	</label>
+							<input type="text" name="" disabled="disabled" id="only_id"/>
+							<p id="change_name">修改昵称</p>
+						</form>
+					</aside>
+					<form action='#' method="post" enctype="multipart/form-data">
+					<section>
+						<input type="file" name="image" id="changePic" value="" onchange="getImgURL(this)"/>
+						<div class="mark"></div>
+					</section>
+					<aside>
+						<button type="button" id="upload">上传头像</button>
+					</aside>
+						</form>
+				</figure>
+				<section>
+					<article id="changePwd">
+						<p>修改密码</p>
+					</article>
+					<aside id="pwd_zone">
+						<form>
+							<label>当前密码：</label>
+							<input type="password"  id="previousPwd" value="" />
+							<label>新的密码：</label>
+							<input type="password" id="nowPwd" value="" />
+							<label>确认密码：</label>
+							<input type="password" id="nowPwd2" value="" />
+							<div id="btn_pwd">
+								<button type="button" id="save_pwd">保存</button>
+								<button type="button" id="cancel_pwd">取消</button>
+							</div>
+							
+						</form>
+					</aside>
+				</section>
+				<section id="team_info">
+					<form id="team_n">
+						<label>我的战队：</label>
+						<input type="text" disabled="disabled" id="team" value="  你还没有创建战队呢！"/>
+					</form>
+					<article id="add_team">
+						<p id="add_click">添加战队</p><p id="amend">修改战队名</p>
+						<section id="member_info">
+							<form>
+								<select>
+									<option value="1">选择球类</option>
+									<option value="2">篮球</option>
+									<option value="3">足球</option>
+									<option value="4">网球</option>
+									<option value="5">排球</option>
+									<option value="6">羽毛球</option>
+									<option value="7">乒乓球</option>
+								</select>
+								<label>你的队名：</label>
+								<input type="text" name="" id="team_name" value="" />
+								<!--<label>成员：</label>
+								<input type="text" name="" id="team_member" value="" />-->
+								<button type="button" id="add_continue"></button>
+								<button type="button" id="add_save">保存</button>
+							</form>
+						</section>
+					</article>
+				</section>
+				<section id="inform">
+					<article><p>消息<i></i></p></article>
+					<aside>
+						<p>系统消息</p>
+						<nav>
+							<ul>
+								<li>gjggjhgjhghjgjhg</li>
+								<li>hkhkhkjhkjhkhj</li>
+								<li>jljljlkjljlkjlk</li>	
+							</ul>
+						</nav>
+					</aside>
+				</section>
+				<section id="match_news">
+					<nav id="desciption">
+						<ul>
+							<li>历史赛事</li>
+							<li>赛事详情</li>
+							<li>时间</li>
+							<li>地点</li>
+							<li>是否取消</li>
+						</ul>
+					</nav>
+					<div class="tab1" id="tab1">
+						<div class="menu">
+							<ul>
+								<li id="one1" onclick="setTab('one',1)">已发布</li>
+								<li id="one2" onclick="setTab('one',2)">已应赛</li>
+								<li id="one3" onclick="setTab('one',3)">已约赛</li>
+								<li id="one4" onclick="setTab('one',4)">已创赛</li>
+							</ul>
+						</div>
+						<div class="menudiv">
+							<div id="con_one_1">
+								<table>
+									<tr>
+										<td>hlkhhlhlk</td>
+										<td>jl;j;j</td>
+										<td>jl老地方地方</td>
+										<td><button type="reset">取消</button></td>
+									</tr>
+									<tr>
+										<td>hlkhhlhlk</td>
+										<td>jl;j;j</td>
+										<td>jl老地方地方</td>
+										<td><button type="reset">取消</button></td>
+									</tr>
+									<tr>
+										<td>hlkhhlhlk</td>
+										<td>jl;j;j</td>
+										<td>jl老地方地方</td>
+										<td><button type="reset">取消</button></td>
+									</tr>
+									<tr>
+										<td>hlkhhlhlk</td>
+										<td>jl;j;j</td>
+										<td>jl老地方地方</td>
+										<td><button type="reset">取消</button></td>
+									</tr>
+									<tr>
+										<td>hlkhhlhlk</td>
+										<td>jl;j;j</td>
+										<td>jl老地方地方</td>
+										<td><button type="reset">取消</button></td>
+									</tr>
+								</table>
+							</div>
+							<div id="con_one_2" style="display:none;">
+								<table>
+									<tr>
+										<td>hlkhhlhlk</td>
+										<td>j就发了减肥</td>
+										<td>jljlj</td>
+										<td><button type="reset">取消</button></td>
+									</tr>
+								</table>
+							</div>
+							<div id="con_one_3" style="display:none;">
+								<table>
+									<tr>
+										<td>滑块发哈</td>
+										<td>jl;j;j</td>
+										<td>jljlj</td>
+										<td><button type="reset">取消</button></td>
+									</tr>
+								</table>
+							</div>
+							<div id="con_one_4" style="display:none;">
+								<table>
+									<tr>
+										<td>hlkhhlhlk</td>
+										<td>jl;j;j</td>
+										<td>jljlj</td>
+										<td><button type="button">取消</button></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</section>
+				</div>
+			</div>
+			<!--底部-->
+		<div class="footer_outer">
+				<div class="footer_inner">
+					<div class="footer_top">
+						<ul>
+							<li>
+								<p>友情链接</p>
+								<div class="footer_card">
+									<a href="#">虎扑体育</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">腾讯体育</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">新浪体育</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">网易体育</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">NBA官网</a>
+								</div>
+							</li>
+							<li>
+								<p>云体秀</p>
+								<div class="footer_card">
+									<a href="#">关于我们</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">联系我们</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">版权声明</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">知识产权</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">客服中心</a>
+								</div>
+							</li>
+							<li>
+								<p>关注云体秀</p>
+								<div class="the_third">
+									<a href="#">
+										<div class="app">
+											<div class="pic"></div>
+											<div class="app_qt_code"></div>
+										</div>
+									</a>
+									<a href="#">
+										<div class="weibo">
+											<div class="pic"></div>
+											<div class="weibo_qt_code"></div>
+										</div>
+									</a>
+									<a href="#">
+										<div class="wechat">
+											<div class="pic"></div>
+											<div class="wechat_qt_code"></div>
+										</div>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_bottom">
+						<p>Copyright&nbsp;&copy;&nbsp;2016yuntixiu,All Right Reserved云计算实验室&nbsp;版权所有</p>
+						<div class="security">
+							<ul>
+								<li><a href="#"><img src="images/homepage/wl_wlshzxw.png" alt=""></a></li>
+								<li><a href="#"><img src="images/homepage/wl_wljga.png" alt=""></a></li>
+								<li><a href="#"><img src="images/homepage/www_jubao.png" alt=""></a></li>
+								<li><a href="#"><img src="images/homepage/www_china_jubao.png" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

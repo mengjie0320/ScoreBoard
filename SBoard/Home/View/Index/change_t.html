@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 thansitional//EN" "http://www.w3.org/th/xhtml1/DTD/xhtml1-thansitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀团队信息修改</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <include file="__URL__/left"></include>
+	   <form enctype="multipart/form-data" action="__URL__/do_change_t" method="post">
+	    	<table>
+				<thead>
+					<tr>
+						<th>团队名称</th>
+						<th>样貌精神</th>
+						<th>成立时间</th>
+						<th>团队地址</th>
+						<th>联系方式（队长）</th>
+						<th>球队类型</th>
+						<th>团队简介</th>
+						<th>团队口号</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th><input type="text" name="change_t_name" id=""></th>
+						<th><input type="file" name="change_t_image" id=""></th>
+						<th><input type="text" name="change_t_startTime" id=""></th>
+						<th><input type="text" name="change_t_changeress" id=""></th>
+						<th><input type="text" name="change_t_phone" id=""></th>
+						<th><input type="text" name="change_t_cate" id=""></th>
+						<th><input type="text" name="change_t_intho" id=""></th>
+						<th><input type="text" name="change_t_watchword" id=""></th>
+					</tr>
+				</tbody>	
+			</table>
+			<input type="submit" width="30px" height="70px" value="添加team信息" name="submit_change_t"> 
+	   </form>
+	
+</body>
+</html>

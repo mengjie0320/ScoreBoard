@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>云体秀--图片展示</title>
+</head>
+<link rel="stylesheet" href="css/picshow.css" />
+<link rel="icon" href="images/homepage/logoyhz.ico" />
+<script type="text/javascript" src="js/jquery-2.2.1.min.js" ></script>
+<script type="text/javascript" src="js/picshow.js" ></script>
+<script type="text/javascript" src="js/cookie.js" ></script>
+<body>
+	<header>
+				<div class="header">
+			<div class="header_center">
+				<div class="nav_first">
+					<ul>
+						<li><a href="#">云体秀</a></li>
+						<li><a href="#">移动客户端</a></li>
+						<li id="li_third"><a href="#">关注云体秀</a>
+							<ul>
+								<div class="triangle_up"><span></span></div>  <!--三角形 -->
+								<li><a href="#">新浪微博</a></li>
+								<li><a href="#">官方微信</a></li>
+								<li><a href="#">腾讯微博</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="search">
+					<form>
+						<input type="search" id="searchContent"  value="" placeholder="请输入关键字…"/>
+						<input type="button" value="" />
+					</form>
+					<div class ="search-content"></div>
+				</div>
+				<div class="nav_last">
+					<ul>
+						<li id="f_li"><a href="register.html" id="register">注册</a></li>
+						<li id="l_li"><a href="login.html" id="login">登录</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			</header>
+			<nav id="top_nav">
+				<section>
+					<ul class="nav_top">
+					<li><a href="homepage.html">首页</a></li>
+					<li><a href="newindex.html">新闻</a></li>
+					<li><a href="video.html">视频</a></li>
+					<li><a href="picindex.html" style="color: #2B9291;">图片</a></li>
+					<li><a href="#">论坛</a></li>
+					<li><a href="data.html" >数据</a></li>
+				</ul>
+				</section>
+				<section>
+					<ul class="nav_bottom" id="nav_bottom">
+					<li><a href="watchMatch.html">看赛事</a></li>
+					<li><a href="arrMatch.html">去约赛</a></li>
+					<li><a href="acceptchallenge.html" >去应赛</a></li>
+					<li><a href="createLeague.html">创联赛</a></li>
+					<li><a href="shoppingindex.html">购云牌</a></li>
+					<li><a href="searchAround.html">搜附近</a></li>
+				</ul>
+				</section>
+			</nav>
+<div class="imgContainer">
+	
+	<!--大图-->
+	<div class="detailImg" > 
+		<a id="detailImg-pre">&lt;</a>
+		<div id="detailImg-box" class="box"> </div>
+		<a id="detailImg-next">&gt;</a>
+	</div>
+	<!--小图-->
+	<div class="smallImg"> 
+		<a id="smallImg-pre"></a>
+		<div id="smallImg-box" class="box">
+			<ul id="smallImg-ul" class="imgUl">
+			</ul>
+		</div>
+		<a id="smallImg-next"></a> 
+	</div>
+</div>
+<div class="comment_zone">
+	<div class="comment_content">
+			<!-- UY BEGIN -->
+				<div id="uyan_frame"></div>
+				<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2126181"></script>
+			<!-- UY END -->
+	</div>
+</div>
+	<footer>
+					<div class="footer_outer">
+				<div class="footer_inner">
+					<div class="footer_top">
+						<ul>
+							<li>
+								<p>友情链接</p>
+								<div class="footer_card">
+									<a href="#">虎扑体育</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">腾讯体育</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">新浪体育</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">网易体育</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">NBA官网</a>
+								</div>
+							</li>
+							<li>
+								<p>云体秀</p>
+								<div class="footer_card">
+									<a href="#">关于我们</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">联系我们</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">版权声明</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">知识产权</a>
+								</div>
+								<div class="footer_card">
+									<a href="#">客服中心</a>
+								</div>
+							</li>
+							<li>
+								<p>关注云体秀</p>
+								<div class="the_third">
+									<a href="#">
+										<div class="app">
+											<div class="pic"></div>
+											<div class="app_qt_code"></div>
+										</div>
+									</a>
+									<a href="#">
+										<div class="weibo">
+											<div class="pic"></div>
+											<div class="weibo_qt_code"></div>
+										</div>
+									</a>
+									<a href="#">
+										<div class="wechat">
+											<div class="pic"></div>
+											<div class="wechat_qt_code"></div>
+										</div>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_bottom">
+						<p>Copyright&nbsp;&copy;&nbsp;2016yuntixiu,All Right Reserved云计算实验室&nbsp;版权所有</p>
+						<div class="security">
+							<ul>
+								<li><a href="#"><img src="images/homepage/wl_wlshzxw.png" alt=""></a></li>
+								<li><a href="#"><img src="images/homepage/wl_wljga.png" alt=""></a></li>
+								<li><a href="#"><img src="images/homepage/www_jubao.png" alt=""></a></li>
+								<li><a href="#"><img src="images/homepage/www_china_jubao.png" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			</footer>
+</body>
+</html>

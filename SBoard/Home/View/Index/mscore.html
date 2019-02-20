@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀某队员得分信息</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <include file="__URL__/left"></include>
+	   <form enctype="multipart/form-data" action="__URL__/add_ms" method="post">
+	    	<table border="1">
+				<thead>
+					<tr>
+						<th>团队id</th>
+						<th>成员id</th>
+						<th>约赛id</th>
+						<th>成员得分</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th><input type="text" name="add_ms_t_id" id=""></th>
+						<th><input type="text" name="add_ms_member_id" id=""></th>
+						<th><input type="text" name="add_ms_pk_id" id=""></th>
+						<th><input type="text" name="add_ms_m_score" id=""></th>
+					</tr>
+				</tbody>
+			</table>
+			<input type="submit" width="30px" height="70px" value="添加ms信息" name="submit_add_ms"> 
+	   </form>
+	<br><br>
+	
+	<table>
+		
+		<thead>
+			<tr>
+				<th>团队id</th>
+				<th>成员id</th>
+				<th>约赛id</th>
+				<th>成员得分</th>
+				<th>修改</th>
+				<th>删除</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist id="tm_info" name = "tm_info">
+			<tr>
+				<th>{$tm_info['t_id']}</th>
+				<th>{$tm_info['member_id']}</th>
+				<th>{$tm_info['pk_id']}</th>
+				<th>{$tm_info['m_score']}</th>
+				<th><a href="__URL__/change_ms/{$tm_info['id']}">修改</th>
+				<th><a href="__URL__/delete_ms/{$tm_info['id']}">删除</th>
+			</tr>
+			</volist>
+		</tbody>		
+	</table>
+	{$page}
+</body>
+</html>

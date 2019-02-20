@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <include file="__URL__/left"></include>
+	   <form enctype="multipart/form-data" action="__URL__/do_change_admin/admin_id/{$is_check[0]['admin_id']}" method="post">
+	    	<table>
+				<thead>
+					<tr>
+						<th>管理员名字</th>
+						<th>管理员密码</th>
+						<th>管理员权限</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th><input type="text" name="change_admin_admin_name" id="" placeholder = "{$is_check[0]['admin_name']}"></th>
+						<th><input type="text" name="change_admin_admin_pwd" id="" placeholder = "{$is_check[0]['admin_pwd']}"></th>
+						<th><input type="text" name="change_admin_admin_limit" id="" placeholder = "{$is_check[0]['admin_limit']}"></th>
+					</tr>
+				</tbody>	
+			</table>
+			<input type="submit" width="30px" height="70px" value="添加admin" name="submit_change_admin"> 
+	   </form>
+	
+</body>
+</html>

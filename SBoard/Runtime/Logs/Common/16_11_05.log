@@ -1,0 +1,6 @@
+[ 2016-11-05T21:43:32+08:00 ] ::1 /ScoreBoard/index.php/Index/change_t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Index
+

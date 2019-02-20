@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 thansitional//EN" "http://www.w3.org/th/xhtml1/DTD/xhtml1-thansitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀pk信息修改</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <include file="__URL__/left"></include>
+	   <form enctype="multipart/form-data" action="__URL__/do_change_pk/pk_id/{$is_check[0]['pk_id']}" method="post">
+	    	<table>
+				<thead>
+					<tr>
+						<th>队一id</th>
+						<th>对二id</th>
+						<th>比赛介绍</th>
+						<th>队一分数</th>
+						<th>对二分数</th>
+						<th>图片1</th>
+						<th>图片2</th>
+						<th>图片3</th>
+						<!--<th>视频</th>-->
+						<th>比赛时间</th>
+						<th>比赛地点</th>
+						<th>记分牌id</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th><input type="text" name="change_pk_t_id1" id="" placeholder = "{$is_check[0]['t_id1']}"></th>
+						<th><input type="text" name="change_pk_t_id2" id="" placeholder = "{$is_check[0]['t_id2']}"></th>
+						<th><input type="text" name="change_pk_intro" id="" placeholder = "{$is_check[0]['intro']}"></th>
+						<th><input type="text" name="change_pk_score1" id="" placeholder = "{$is_check[0]['score1']}"></th>
+						<th><input type="text" name="change_pk_score2" id="" placeholder = "{$is_check[0]['score2']}"></th>
+						<th><input type="file" name="change_pk_image1" id=""></th>
+						<th><input type="file" name="change_pk_image2" id=""></th>
+						<th><input type="file" name="change_pk_image3" id=""></th>
+						<!--<th><input type="file" name="change_pk_video" id=""></th>-->
+						<th><input type="text" name="change_pk_time" id="" placeholder = "{$is_check[0]['time']}"></th>
+						<th><input type="text" name="change_pk_place" id="" placeholder = "{$is_check[0]['place']}"></th>
+						<th><input type="text" name="change_pk_sb_id" id="" placeholder = "{$is_check[0]['sb_id']}"></th>
+					</tr>
+				</tbody>	
+			</table>
+			<input type="submit" width="30px" height="70px" value="修改team信息" name="submit_change_pk"> 
+	   </form>
+	
+</body>
+</html>

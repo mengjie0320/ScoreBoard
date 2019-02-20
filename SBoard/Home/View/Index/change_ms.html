@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <include file="__URL__/left"></include>
+	   <form enctype="multipart/form-data" action="__URL__/do_change_ms/id/{$is_check[0]['id']}" method="post">
+	    	<table>
+				<thead>
+					<tr>
+						<th>团队id</th>
+						<th>成员id</th>
+						<th>约赛id</th>
+						<th>成员得分</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th><input type="text" name="change_ms_t_id" id="" placeholder = "{$is_check[0]['t_id']}"></th>
+						<th><input type="text" name="change_ms_member_id" id="" placeholder = "{$is_check[0]['member_id']}"></th>
+						<th><input type="text" name="change_ms_pk_id" id="" placeholder = "{$is_check[0]['pk_id']}"></th>
+						<th><input type="text" name="change_ms_m_score" id="" placeholder = "{$is_check[0]['m_score']}"></th>
+					</tr>
+				</tbody>	
+			</table>
+			<input type="submit" width="30px" height="70px" value="添加team信息" name="submit_change_ms"> 
+	   </form>
+	
+</body>
+</html>

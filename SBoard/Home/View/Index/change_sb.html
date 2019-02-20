@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀记分牌</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <include file="__URL__/left"></include>
+	   <form enctype="multipart/form-data" action="__URL__/do_change_sb/id/{$is_check[0]['order_id']}" method="post">
+	    	<table>
+				<thead>
+					<tr>
+						<th>记分牌id</th>
+						<th>昵称</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>{$is_check[0]['sb_id']}</th>
+						<th><input type="text" name="change_sb_sb_nickname" id="" placeholder = "{$is_check[0]['nickname']}"></th>
+					</tr>
+				</tbody>	
+			</table>
+			<input type="submit" width="30px" height="70px" value="添加sb信息" name="submit_change_sb"> 
+	   </form>
+	
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀订单</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <include file="__URL__/left"></include>
+	   <form enctype="multipart/form-data" action="__URL__/do_change_order/id/{$is_check[0]['order_id']}" method="post">
+	    	<table>
+				<thead>
+					<tr>
+						<th>购买人员id</th>
+						<th>记分牌id</th>
+						<th>购买时间</th>
+						<th>是否支付</th>
+						<th>价格</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+
+						<th><input type="text" name="change_order_reg_id" id="" placeholder = "{$is_check[0]['reg_id']}"></th>
+						<th><input type="text" name="change_order_sb_id" id="" placeholder = "{$is_check[0]['sb_id']}"></th>
+						<th><input type="text" name="change_order_shopTime" id="" placeholder = "{$is_check[0]['shopTime']}"></th>
+						<th><input type="text" name="change_order_is_paid" id="" placeholder = "{$is_check[0]['is_paid']}"></th>
+						<th><input type="text" name="change_order_price" id="" placeholder = "{$is_check[0]['price']}"></th>
+					</tr>
+				</tbody>	
+			</table>
+			<input type="submit" width="30px" height="70px" value="添加order信息" name="submit_change_order"> 
+	   </form>
+	
+</body>
+</html>

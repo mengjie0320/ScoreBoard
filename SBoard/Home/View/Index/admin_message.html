@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀管理员新消息</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <include file="__URL__/left"></include>
+	   <table>
+			<thead>
+				<tr>
+					<th>admin_id</th>
+					<th>message</th>
+					<th>删除</th>
+				</tr>
+			</thead>
+			<tbody>
+				<volist id="list" name = "list">
+				<tr>
+					<th>{$list['admin_id']}</th>
+					<th>{$list['message']}</th>
+					<th><a href ="__URL__/delete_mes/id/{$list['id']}">删除</a></th>
+				</tr>
+				</volist>
+			</tbody>	
+		</table>
+		{$page}
+</body>
+</html>

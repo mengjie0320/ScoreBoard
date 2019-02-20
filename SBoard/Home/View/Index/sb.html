@@ -1,0 +1,55 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀订单信息</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <include file="__URL__/left"></include>
+	   <form enctype="multipart/form-data" action="__URL__/add_sb" method="post">
+	    	<table border="1">
+				<thead>
+					<tr>
+						<th>记分牌id</th>
+						<th>密码</th>
+						<th>昵称nickname</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th><input type="text" name="add_sb_sb_id" id=""></th>
+						<th><input type="text" name="add_sb_sb_pwd" id=""></th>
+						<th><input type="text" name="add_sb_sb_nickname" id=""></th>
+					</tr>
+				</tbody>
+			</table>
+			<input type="submit" width="30px" height="70px" value="添加scoreboard信息" name="submit_add_sboard"> 
+	   </form>
+	<br><br>
+	
+	<table>
+		
+		<thead>
+			<tr>
+				<th>记分牌id</th>
+				<th>密码</th>
+				<th>昵称nickname</th>
+				<th>修改</th>
+				<th>删除</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist id="sb_info" name = "sb_info">
+			<tr>
+				<th>{$sb_info['sb_id']}</th>
+				<th>{$sb_info['sb_pwd']}</th>
+				<th>{$sb_info['sb_nickname']}</th>
+				<th><a href="__URL__/change_sb/{$sb_info['sb_id']}">修改</th>
+				<th><a href="__URL__/delete_sb/{$sb_info['sb_id']}">删除</th>
+			</tr>
+			</volist>
+		</tbody>		
+	</table>
+	{$page}
+</body>
+</html>

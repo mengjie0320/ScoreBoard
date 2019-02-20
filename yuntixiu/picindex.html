@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>云体秀--图片</title>
+		<link href="css/sucaijiayuan.css" type="text/css" rel="stylesheet" />
+		<link rel="icon" href="images/homepage/logoyhz.ico" />
+		<script type="text/javascript" src="js/jquery-2.2.1.min.js" ></script>
+		<script type="text/javascript" src="js/pic.js" ></script>
+		<script type="text/javascript" src="js/cookie.js" ></script>
+
+		<script>
+			$(window).on('load', function() {
+				waterfall();
+				var dataInt = {
+					"data": [{
+						"src": "other/0.jpg"
+					}, {
+						"src": "other/1.jpg"
+					}, {
+						"src": "other/2.jpg"
+					}, {
+						"src": "other/3.jpg"
+					}]
+				};
+				$(window).on('scroll', function() {
+						if (checkScrollslide) {
+							$.each(dataInt.data, function(key, value) {
+								var oBox = $('<div>').addClass('box').appendTo($('#main'));
+								var oPic = $('<div>').addClass('pic').appendTo($(oBox));
+								var  oa = $(oPic).wrap('<a href="picshow.html"></a>');
+								var osum=$('<div>').addClass('summary').appendTo($(oPic));
+								var osumt=$('<div>').addClass('summarytxt').appendTo($(osum));
+								var oP=$('<p>').appendTo($(osumt));
+								var oImg = $('<img>').attr('src', 'images/' + $(value).attr('src')).appendTo($(oa));
+							})
+							waterfall();
+						}
+				}
+				)
+			})
+
+			function waterfall() {
+				var $boxs = $('#main>div');
+				var w = $boxs.eq(0).outerWidth();
+			var cols = Math.floor($('#content').width() / w);
+			$('#main').width(w * cols).css('margin', '0 auto');
+				var hArr = [];
+				$boxs.each(function(index, value) {
+					var h = $boxs.eq(index).outerHeight();
+					if (index < cols) {
+						hArr[index] = h;
+					} else {
+						var minH = Math.min.apply(null, hArr);
+						var minHIndex = $.inArray(minH, hArr);
+						$(value).css({
+							'position': 'absolute',
+							'top': minH + 'px',
+							'left': minHIndex * w + 'px'
+
+						})
+						hArr[minHIndex] += $boxs.eq(index).outerHeight();
+					}
+				})
+			}
+
+			function checkScrollslide() {
+				var $lastBox = $('#main>div').last();
+				var lastBoxDis = $lastBox.offset().top + Math.floor($lastBox.outerHeight() / 2);
+				var scrollTop = $(window).scrollTop();
+				var documentH = $(window).height();
+				return (lastBoxDis < scrollTop + documentH) ? true : false;
+			}
+			
+		</script>
+	</head>
+
+	<body>
+		<header>
+				<div class="header">
+			<div class="header_center">
+				<div class="nav_first">
+					<ul>
+						<li><a href="#">云体秀</a></li>
+						<li><a href="#">移动客户端</a></li>
+						<li id="li_third"><a href="#">关注云体秀</a>
+							<ul>
+								<div class="triangle_up"><span></span></div>  <!--三角形 -->
+								<li><a href="#">新浪微博</a></li>
+								<li><a href="#">官方微信</a></li>
+								<li><a href="#">腾讯微博</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="search">
+					<form>
+						<input type="search" id="searchContent"  value="" placeholder="请输入关键字…"/>
+						<input type="button" value="" />
+					</form>
+					<div class ="search-content"></div>
+				</div>
+				<div class="nav_last">
+					<ul>
+						<li id="f_li"><a href="register.html" id="register">注册</a></li>
+						<li id="l_li"><a href="login.html" id="login">登录</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			</header>
+			<nav id="top_nav">
+				<section>
+					<ul class="nav_top">
+					<li><a href="homepage.html">首页</a></li>
+					<li><a href="newindex.html">新闻</a></li>
+					<li><a href="video.html">视频</a></li>
+					<li><a href="picindex.html"  style="color: #2B9291;">图片</a></li>
+					<li><a href="#">论坛</a></li>
+					<li><a href="data.html">数据</a></li>
+				</ul>
+				</section>
+				<section>
+					<ul class="nav_bottom" id="nav_bottom">
+					<li><a href="watchMatch.html">看赛事</a></li>
+					<li><a href="arrMatch.html">去约赛</a></li>
+					<li><a href="acceptchallenge.html">去应赛</a></li>
+					<li><a href="createLeague.html">创联赛</a></li>
+					<li><a href="shoppingindex.html">购云牌</a></li>
+					<li><a href="searchAround.html">搜附近</a></li>
+				</ul>
+				</section>
+		<div id="content">
+			
+	
+		<div id="main">
+
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/0.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/3.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/2.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/2.jpg"/></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/1.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/0.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/1.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/3.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/1.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/2.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/3.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/1.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/0.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/2.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/3.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/1.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/0.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/3.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="pic"><a href="picshow.html" class="aa"><img src="images/other/1.jpg" /></a>
+				<div class="summary">
+					<div class="summarytxt">
+						<p>飞奔的c罗</p>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<script type="text/javascript">
+$(document).ready(function(){
+	$('.pic').hover(function(){
+		$(this).find(".summary").toggle(700);
+	});
+});
+</script>
+	</body>
+
+</html>

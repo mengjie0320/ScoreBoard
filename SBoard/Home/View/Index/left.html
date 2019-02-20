@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>云体秀</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	
+	<nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element"> <span>
+                         </span><br><br>
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">&nbsp;&nbsp;&nbsp;&nbsp;{$name}</strong>
+                         </span> <span class="text-muted text-xs block">欢迎登录！</span> </span> </a>
+                    </div>
+                </li><br>
+                <li class="nav-header">
+                    <div class="dropdown profile-element"> <span>
+                         </span><br><br>
+                        <form action="search_t" enctype="multipart/form-data" method="post">
+							输入team相关信息查阅某一队的信息
+						    <input type="text" name="searchtext" width="30px" height="100px"  id="">
+						    <input type="submit" name="submit_search_t" value="搜索">
+						</form>
+                    </div>
+                </li><br>
+                <if condition="($admin_limit eq '1')">
+                	<li class="active">
+	                    <a href="__URL__/admin"><i class="fa fa-diamond"></i> <span class="nav-label">&nbsp;&nbsp;<b>admin</b></span> </a>
+	                    <ul class="nav nav-second-level">
+	                        <li><a href="__URL__/change_admin">&nbsp;&nbsp;&nbsp;&nbsp;修改admin信息</a></li>
+	                        <li><a href="__URL__/admin_message">&nbsp;&nbsp;&nbsp;&nbsp;通知</a></li>
+	                    </ul>
+                    </li>
+                </if>
+                
+                 <li class="active">
+                    <a href="__URL__/user"><i class="fa fa-diamond"></i> <span class="nav-label">&nbsp;&nbsp;<b>user</b></span> </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="__URL__/member">&nbsp;&nbsp;&nbsp;&nbsp;member</a></li>
+                    </ul>
+                 </li>
+                <li class="active">
+                    <a href="__URL__/team"><i class="fa fa-diamond"></i> <span class="nav-label">&nbsp;&nbsp;<b>Team</b></span> </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="__URL__/change_t">&nbsp;&nbsp;&nbsp;&nbsp;修改球队信息</a></li>
+                    </ul>
+                </li>
+                <li lass="active">
+                <a href="__URL__/sb"><i class="fa fa-th-large"></i> <span class="nav-label">&nbsp;&nbsp;<b>ScoreBoard</b></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="__URL__/change_sb">&nbsp;&nbsp;&nbsp;&nbsp;修改记分牌</a></li>
+                    </ul>
+                </li>               
+                <li lass="active">
+                <a href="__URL__/pk"><i class="fa fa-th-large"></i> <span class="nav-label"><b>&nbsp;&nbsp;查看约赛记录</b></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="__URL__/change_pk">&nbsp;&nbsp;&nbsp;&nbsp;修改约赛信息</a></li>
+                    </ul>
+                </li> 
+                <li lass="active">
+                <a href="__URL__/order"><i class="fa fa-th-large"></i> <span class="nav-label"><b>&nbsp;&nbsp;查看订单记录</b></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="__URL__/change_order">&nbsp;&nbsp;&nbsp;&nbsp;修改订单信息</a></li>
+                    </ul>
+                </li>
+                <li lass="active">
+                <a href="__URL__/news"><i class="fa fa-th-large"></i> <span class="nav-label"><b>&nbsp;&nbsp;查看推文记录</b></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="__URL__/change_news">&nbsp;&nbsp;&nbsp;&nbsp;修改推文信息</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="__MODULE__/Login/logout">
+                        <i class="fa fa-sign-out"></i>&nbsp;&nbsp; 退出
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <br><br>
+    </nav>
+</body>
+</html>
